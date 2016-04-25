@@ -15,6 +15,7 @@
 		7ACD098F1CC04264000FAAA0 /* ExtendedButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACD098E1CC04264000FAAA0 /* ExtendedButtonTests.swift */; };
 		8E43C6F51CCEBDF100695978 /* UIOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E43C6F41CCEBDF100695978 /* UIOffset.swift */; };
 		8E43C6F71CCEBE2C00695978 /* UIOffsetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E43C6F61CCEBE2C00695978 /* UIOffsetTests.swift */; };
+		8E43C6F91CCEBFCA00695978 /* CGRectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E43C6F81CCEBFCA00695978 /* CGRectTests.swift */; };
 		DFBC07AD1CAC399700A7A665 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC079F1CAC399700A7A665 /* CGRect.swift */; };
 		DFBC07AE1CAC399700A7A665 /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC07A01CAC399700A7A665 /* CGSize.swift */; };
 		DFBC07B01CAC399700A7A665 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBC07A21CAC399700A7A665 /* Double.swift */; };
@@ -51,6 +52,7 @@
 		7ACD098E1CC04264000FAAA0 /* ExtendedButtonTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtendedButtonTests.swift; sourceTree = "<group>"; };
 		8E43C6F41CCEBDF100695978 /* UIOffset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIOffset.swift; sourceTree = "<group>"; };
 		8E43C6F61CCEBE2C00695978 /* UIOffsetTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIOffsetTests.swift; sourceTree = "<group>"; };
+		8E43C6F81CCEBFCA00695978 /* CGRectTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRectTests.swift; sourceTree = "<group>"; };
 		DFBC079F1CAC399700A7A665 /* CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
 		DFBC07A01CAC399700A7A665 /* CGSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSize.swift; sourceTree = "<group>"; };
 		DFBC07A21CAC399700A7A665 /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				7A44D0691C187E030063575B /* Info.plist */,
 				7A3FC2B21CAC2B0B007A4063 /* UIEdgeInsetsTests.swift */,
 				8E43C6F61CCEBE2C00695978 /* UIOffsetTests.swift */,
+				8E43C6F81CCEBFCA00695978 /* CGRectTests.swift */,
 			);
 			path = TaylorTests;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				7ACD098F1CC04264000FAAA0 /* ExtendedButtonTests.swift in Sources */,
 				7A3FC2B31CAC2B0B007A4063 /* UIEdgeInsetsTests.swift in Sources */,
 				8E43C6F71CCEBE2C00695978 /* UIOffsetTests.swift in Sources */,
+				8E43C6F91CCEBFCA00695978 /* CGRectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

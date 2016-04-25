@@ -54,3 +54,12 @@ extension CGRect
 }
 
 // swiftlint:enable variable_name
+
+extension CGRect
+{
+    public func insetBy(insets: UIEdgeInsets) -> CGRect
+    {
+        return CGRect(origin: CGPoint(x: origin.x + insets.left, y: origin.y + insets.top),
+                      size: CGSize(width: size.width - insets.left - insets.right, height: size.height - insets.top - insets.bottom))
+    }
+}
